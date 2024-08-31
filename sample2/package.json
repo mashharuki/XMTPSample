@@ -1,0 +1,17 @@
+{
+  "name": "sample2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "sample": "ts-node ./index.ts",
+    "createClient": "ts-node ./createClient.ts"
+  },
+  "dependencies": {
+    "@xmtp/xmtp-js": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
